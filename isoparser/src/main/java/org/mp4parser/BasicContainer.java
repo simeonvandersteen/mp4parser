@@ -30,7 +30,7 @@ public class BasicContainer implements Container {
         long contentSize = 0;
         for (int i = 0; i < getBoxes().size(); i++) {
             // it's quicker to iterate an array list like that since no iterator
-            // needs to be instantiated
+            // needs to be instantiatedBasicContainer
             contentSize += boxes.get(i).getSize();
         }
         return contentSize;
